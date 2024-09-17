@@ -1,0 +1,40 @@
+#Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+  font-size: 100px;
+  color:#ff6200;
+  font-family:fantasy;
+  text-align: center;
+  
+}
+h1:hover{
+    color: hwb(261 0% 0%);
+    font-size: 110px;
+}
+#PLAY{
+    text-decoration: none;
+     background-color: #0059ff;
+    border: 2px white solid;
+    font-family: cursive;
+    color: white;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+#PLAY:hover{
+    background-color: #f41717;
+    color: black;
+    border: 2px solid #ffc400;
+    height: 50px;
+    width: 250px;
+}
+body{
+    background-image: url(https://i0.wp.com/junilearning.com/wp-content/uploads/2023/12/java-tutorial-coding-rock-paper-scissors.png?fit=800%2C500&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

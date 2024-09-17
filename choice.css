@@ -1,0 +1,77 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: fantasy;
+    color: #857acf;
+}
+#PLAY1{
+    height: 50;
+    width: 250;
+    text-align: center;
+    font-family: cursive;
+    background-color:lightslategray;
+    color: teal;
+    border: black;
+    font-size: 30px;
+}
+#PLAY1:hover{
+    background-color: darkgrey;
+    color: black;
+    border: 2px solid darkgrey;
+}
+#PLAY2{
+    height: 100;
+    width: 250;
+    text-align: center;
+    font-family: cursive;
+    background-color:hsl(70, 56%, 65%);
+    color: teal;
+    border: black;
+    font-size: 30px;
+}
+#PLAY2:hover{
+    background-color: #85e715;
+    color: black;
+    border: 2px solid #ffffff;
+}
+#PLAY3{
+    height:100;
+    width: 250;
+    text-align: center;
+    font-family: cursive;
+    background-color:#d7815c;
+    color: teal;
+    border: black;
+    font-size: 30px;
+}
+#PLAY3:hover{
+    background-color: #ffae00;
+    color: black;
+    border: 2px solid #ffffff;
+}
+#RESET{
+    height: 50px;
+    width: 50px;
+}
+body{
+    background-image: url(https://miro.medium.com/v2/resize:fit:1000/1*mqX7H2I9mubkpT9FumcNZA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h2{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    font-family:fantasy;
+    font-size: 50px;
+    color:brown ;
+    background-color: aliceblue;
+    background-size: 5px;
+}
+#Centre{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center ;
+    flex-direction: row;
+}
